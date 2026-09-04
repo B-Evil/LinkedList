@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LinkedList.App/LinkedList.App.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LinkedList.App.Tests/LinkedList.App.Tests.csproj" />
+  </Folder>
+</Solution>
