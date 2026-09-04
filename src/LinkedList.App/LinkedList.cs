@@ -139,7 +139,7 @@ public class LinkedList: IEnumerable{
     }
 
     public void DeleteAt(int index) {
-        if(index < 0 || index >= Count) {
+        if(index < 0 || index >= 0) {
             string msg = $"Invalid index. valid Ranger: 0 to {Count - 1}";
             throw new IndexOutOfRangeException(msg);
         }
